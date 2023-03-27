@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/one_nv"
+            android:title="One"
+            android:icon="@drawable/ic_one"/>
+
+        <item
+            android:id="@+id/two_nv"
+            android:title="Two"
+            android:icon="@drawable/ic_two"/>
+
+        <item
+            android:id="@+id/three_nv"
+            android:title="Three"
+            android:icon="@drawable/ic_three"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="middle">
+
+            <menu>
+
+                <item
+                    android:id="@+id/middle_one_nv"
+                    android:title="One"
+                    android:icon="@drawable/ic_one"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <item android:title="last">
+
+        <menu>
+
+            <item
+                android:id="@+id/last_one_nv"
+                android:title="One"
+                android:icon="@drawable/ic_one"/>
+
+        </menu>
+
+    </item>
+
+</menu>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="@drawable/rounded"
+    tools:context=".BottomSheetFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_dash" >
+
+
+    </ImageView>
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            ///  Activity
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFE5FD"
+                android:text="Activity"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 1 - SplashScreen."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 2 - One Acitvity to Second Activity on click of Button"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 3 - Activity LifeCycle."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 4 - Input two Numbers and get value on click of Button."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 5 - Input details and Output details on click of Button."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 6 - Calclulator."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+
+            ///  Intent
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFE5FD"
+                android:layout_marginTop="10dp"
+                android:text="Intent"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 7 - Call, Send SMS, Send Mail, Share via Intent."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+
+            /// Fragment
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFE5FD"
+                android:layout_marginTop="10dp"
+                android:text="Fragment"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 8 - Splash Screen with Fragment."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 9 - Login and Registration."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 10 - Pass Object One Fragment to Another Fragment."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            /// Ui Controls
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#EFE5FD"
+                android:layout_marginTop="10dp"
+                android:text="Ui Controls"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 11 - Input numbers and print it's Reverse Without Button."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 12 - Calculating Numbers with Radio Buttons."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 13 - Google url into Webview."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 14 - Google conection is available or not."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 15 - Hide and Show TextView On click of Buttons."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 16 - TextView in Table Layout."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 17 - Open pdf, Share Text, image Using Implicit Intent."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 18 -  Change Background on click of Button."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 19 - Increace and decreace font size on click of + or -."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 20 - Enter Numbers How many Edit Text You want to generate."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 21 - UnHide Image on Selected CheckBox."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 22 - Crate Array.xml file and show in list view."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 23 - Display Colors on selected radio button."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Assignment 24 - Display Colors on selected seek bar."
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:paddingStart="20dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myassignment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_VOICEMAIL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyAssignment">
+        <activity
+            android:name=".UI_Controls.ChangeColorOnSeekBar"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.ChangeColorOnRadioBtn"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.ArrayInListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.DisplayTextViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.EnterEdtTxtActivity"
+            android:exported="false"
+            android:label="@string/title_activity_enter_edt_txt" />
+        <activity
+            android:name=".UI_Controls.IncreaseDecreaseFont"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.ChangeBackgroundActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.Activity_tv_in_TableLayout"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.Activity_Hide_Show_tv"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.GoogleUrlActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.ActivityCalculatingRadionButtons"
+            android:exported="false" />
+        <activity
+            android:name=".UI_Controls.Activity_Ui_Input_Reverse_Num"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.Assignment9.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Intent.Intent_Call_SMS"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Assignment_6_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Assignment5.Assignment_5_Output_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Assignment5.Assignment_5_Input_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_I2_I3_LifeCycle"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity_I1_SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

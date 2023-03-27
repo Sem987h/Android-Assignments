@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI_Controls.ActivityCalculatingRadionButtons">
+
+
+    <EditText
+        android:id="@+id/edtTwoRadio"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="57dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/edtOneRadio" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="15dp"
+        android:background="#FEDBD0"
+        android:text="Enter Numbers"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtOneRadio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtOneRadio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/edtTwoRadio"
+        app:layout_constraintEnd_toEndOf="@+id/edtTwoRadio"
+        app:layout_constraintStart_toStartOf="@+id/edtTwoRadio"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+    <RadioGroup
+        android:id="@+id/rbGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRadioEnter"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/rbAddition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addition"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="472dp" />
+
+        <RadioButton
+            android:id="@+id/rbSubstraction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Substraction"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="328dp" />
+
+        <RadioButton
+            android:id="@+id/rbMultiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiplication"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="376dp" />
+
+        <RadioButton
+            android:id="@+id/rbDivision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="424dp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FEDBD0"
+        android:text="* Select What You Want To Do"
+        app:layout_constraintBottom_toTopOf="@+id/rbGroup"
+        app:layout_constraintStart_toStartOf="@+id/edtTwoRadio"
+        app:layout_constraintTop_toBottomOf="@+id/edtTwoRadio" />
+
+    <Button
+        android:id="@+id/btnRadioEnter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#FEDBD0"
+        android:text="Enter"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rbGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

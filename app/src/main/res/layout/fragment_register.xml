@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/RegisterFrag"
+    tools:context=".Fragment.Assignment9.RegisterFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:layout_gravity="center"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint=" Email or Number"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:hint=" Password"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:hint=" Conform Password"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Register"/>
+
+        <TextView
+            android:id="@+id/txtLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click to Go Back To Login Page"
+            android:textColor="#000fff"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

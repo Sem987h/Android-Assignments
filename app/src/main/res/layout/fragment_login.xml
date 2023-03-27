@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Assignment9.LoginFragment"
+    android:orientation="horizontal"
+    android:id="@+id/LoginFrag">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:textSize="30dp"/>
+
+        <EditText
+            android:id="@+id/txtId"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint=" Email or Number"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="300dp"
+            android:hint=" Password"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click for Registration"
+            android:textColor="#000fff"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:text="Login"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
